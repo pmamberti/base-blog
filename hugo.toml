@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://pm-base-blog-1.fly.dev/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
