@@ -1,0 +1,36 @@
+# flyctl launch added from themes/ananke/.gitignore
+# OS
+themes/ananke/**/.DS_Store
+themes/ananke/**/Thumbs.db
+
+# IDEs
+themes/ananke/**/.buildpath
+themes/ananke/**/.project
+themes/ananke/**/.settings
+themes/ananke/**/.build
+themes/ananke/**/.idea
+themes/ananke/**/public
+themes/ananke/**/nbproject
+
+# Vagrant
+themes/ananke/**/.vagrant
+
+# FE Setup
+themes/ananke/**/.bin/node_modules
+themes/ananke/node_modules
+themes/ananke/**/src/node_modules
+themes/ananke/**/exampleSite/node_modules
+themes/ananke/**/src/npm-debug.log.*
+themes/ananke/**/npm-debug.log
+themes/ananke/npm-debug.log*
+themes/ananke/dist
+themes/ananke/src/client.config.json
+themes/ananke/styleguide
+themes/ananke/docs
+
+themes/ananke/junit.xml
+themes/ananke/**/partials/structure/stylesheet.html
+
+# Hugo
+themes/ananke/**/.hugo_build.lock
+fly.toml
