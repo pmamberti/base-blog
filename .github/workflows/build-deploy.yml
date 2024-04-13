@@ -27,6 +27,8 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Fly Deploy
+      - name: Install fly
         uses: superfly/flyctl-actions/setup-flyctl@master 
-        - run: flyctl deploy --remote-only
+
+      - name: Fly Deploy
+        run: flyctl deploy --remote-only
