@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: pmamberti/base_blog # Path to your GitHub repository
+  repo: pmamberti/base-blog # Path to your GitHub repository
   branch: main
-  
+
 # These lines should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "public/images" 
